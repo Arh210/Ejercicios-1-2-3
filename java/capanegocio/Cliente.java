@@ -1,45 +1,50 @@
 package capanegocio;
 
-import java.util.ArrayList;
-
 public class Cliente {
-    // Atributos de la clase
-    private String codCliente;
-    private String nombreCliente;
-    private String direccionCliente;
-    private String telefonoCliente;
-    public ArrayList<Factura> recibefactura = new ArrayList();
-    
+    // atributos
+    private String apellidos;
+    private String nombres;
+    private String numeroCel;
+    private String direccion;
+    private String dni;
 
-    public String getCodCliente() {
-        return codCliente;
+    public String getDni() {
+        return dni;
     }
 
-    public void setCodCliente(String codCliente) {
-        this.codCliente = codCliente;
+    public void setDni(String dni) {
+        this.dni = dni;
     }
 
-    public String getNombreCliente() {
-        return nombreCliente;
+    public String getApellidos() {
+        return apellidos;
     }
 
-    public void setNombreCliente(String nombreCliente) {
-        this.nombreCliente = nombreCliente;
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
     }
 
-    public String getDireccionCliente() {
-        return direccionCliente;
+    public String getNombres() {
+        return nombres;
     }
 
-    public void setDireccionCliente(String direccionCliente) {
-        this.direccionCliente = direccionCliente;
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
     }
 
-    public String getTelefonoCliente() {
-        return telefonoCliente;
+    public String getNumeroCel() {
+        return numeroCel;
     }
 
-    public void setTelefonoCliente(String telefonoCliente) {
-        this.telefonoCliente = telefonoCliente;
+    public void setNumeroCel(String numeroCel) {
+        this.numeroCel = numeroCel;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
 }
